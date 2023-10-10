@@ -99,7 +99,7 @@ export default function Home() {
                 key={id}
                 className='my-4 w-full flex justify-between bg-slate-950'
               >
-                <div className='p-4 w-full flex justify-between'>
+                <div className='p-4 w-full flex justify-between text-white'>
                   <span className='capitalize text-white'>{item.name}</span>
                   <span>${item.price}</span>
                 </div>
